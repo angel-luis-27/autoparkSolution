@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .padre {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .columnas {
+            margin: 15px 30px;
+        }
+        
+        .general-1, .general-2, .general-3 {
+            background-color: rgba(0, 0, 0, 0.637); /* Fondo para resaltar el contenido */
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            color: aliceblue;
+            transition: transform 0.3s;
+        }
+        
+        .general-1:hover, .general-2:hover, .general-3:hover {
+            transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+        }
+        
+        .titulo {
+            text-align: center;
+            font-size: 70px;
+            text-transform: uppercase;
+            color: #18293a;
+        }
+        
+        .parrafo {
+            text-align: center;
+            font-size: 16px;
+            color: aliceblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2 class="titulo">Precios y Planes</h2>
+    <a href="index.html">inicio</a>
+<div class="padre">
+    <div class="columnas">
+        <div class="general-1 txt">
+            <div class="sombra">    
+                <h3 class="titulo" style="color: aliceblue;">motocicleta</h3>
+                <p class="parrafo" style="color: aliceblue;">Ideal para pequeñas empresas. Incluye gestión de hasta 50 motociclestas, soporte básico y acceso a informes mensuales.</p>
+                <p class="parrafo" style="color: aliceblue;"><strong>Precio: $150/mes</strong></p>
+            </div>
+        </div>
+    </div>
+    <div class="columnas">
+        <div class="general-2 txt">
+            <div class="sombra">    
+                <h3 class="titulo" style="color: aliceblue;">automovil</h3>
+                <p class="parrafo" style="color: aliceblue;">Perfecto para medianas empresas. Gestión de hasta 200 vehículos, soporte prioritario y acceso a análisis de datos para tu automovil.</p>
+                <p class="parrafo" style="color: aliceblue;"><strong>Precio: $190/mes</strong></p>
+            </div>    
+        </div>
+    </div>
+    <div class="columnas">
+        <div class="general-3 txt">
+            <div class="sombra">    
+                <h3 class="titulo" style="color: aliceblue;">vehicul pesao</h3>
+                <p class="parrafo" style="color: aliceblue;">Para empresas grandes. Gestión ilimitada de vehículos, soporte 24/7 y acceso a vehicilos pesados mulas,voleos etc.</p>
+                <p class="parrafo" style="color: aliceblue;"><strong>Precio: $270/mes</strong></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+</body>
+</html>
